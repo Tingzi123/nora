@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ >
+    <TextView
+        android:id="@+id/tvDoctor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="阿鸡动物医院 徐医生"
+        android:textColor="#FFF"
+        android:textSize="14sp"
+        android:background="#81D8D0"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="5dp"/>
+    <ListView
+
+        android:id="@+id/listView_chat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tvDoctor"
+        android:layout_above="@id/llSend"
+        android:divider="@null"
+        android:listSelector="@android:color/white"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"/>
+    <LinearLayout
+        android:id="@+id/llSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/chat_round_int"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp" />
+
+        <Button
+            android:id="@+id/tv_send"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:drawableStart="@mipmap/sendmsg"
+            android:paddingLeft="15dp" />
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

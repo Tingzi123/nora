@@ -1,0 +1,9 @@
+base_url = http://47.103.24.194:9000/
+#base_url = http://122.112.254.136:5555/rest/
+api=com.example.ausu.myapplication.http.RetrofitApiservice
+successCode=1
+customAPIException=fasle
+spFilename=userinfo
+header0=userid
+header1=token
+headerNum=2

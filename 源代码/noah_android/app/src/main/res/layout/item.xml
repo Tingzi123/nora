@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/wode_white_bg"
+    android:layout_marginBottom="10dp">
+    <RelativeLayout
+        android:id="@+id/rl_huati"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/head"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/b4_a"/>
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/head"
+            android:text="ywquiw"
+            android:layout_marginTop="35dp"
+            android:textSize="14dp"
+            />
+        <TextView
+            android:id="@+id/huati"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/head"
+            android:text="内容"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="18dp"/>
+        <ImageView
+            android:id="@+id/ivMy"
+            android:layout_below="@id/huati"
+            android:visibility="gone"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="80dp"
+            android:layout_height="120dp" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_below="@id/rl_huati"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:drawableTop="@mipmap/good"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:drawableTop="@mipmap/comment"
+            />
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:drawableTop="@mipmap/selec"/>
+    </LinearLayout>
+</RelativeLayout>

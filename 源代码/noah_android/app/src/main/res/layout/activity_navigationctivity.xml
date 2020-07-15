@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/wode_white_bg"
+    tools:context=".navigation.Navigationctivity">
+    <RadioGroup
+        android:id="@+id/rbtn"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+        <RadioButton
+            android:id="@+id/main"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableBottom="@drawable/btn_main_word"
+            android:drawableTop="@drawable/btn_main_state"
+            />
+        <RadioButton
+            android:id="@+id/health"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/btn_health_state"
+            android:drawableBottom="@drawable/btn_health_word"
+            android:layout_weight="1"
+            android:button="@null"
+            />
+        <RadioButton
+            android:id="@+id/save"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/btn_save_state"
+            android:drawableBottom="@drawable/btn_save_word"
+            android:layout_weight="1"
+            android:button="@null"
+            />
+
+        <RadioButton
+            android:id="@+id/shop"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/btn_shop_state"
+            android:drawableBottom="@drawable/btn_shop_word"
+            android:gravity="center" />
+        <RadioButton
+            android:id="@+id/aboutMe"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/btn_aboutme_state"
+            android:drawableBottom="@drawable/btn_aboutme_word"
+            android:layout_weight="1"
+            android:button="@null"
+            />
+
+    </RadioGroup>
+</RelativeLayout>

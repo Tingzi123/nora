@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="xialawenben">
+田下艺兴 2019/7/12 14:55:16
+        群护的34条街有75只猫，手上的猫有79只，狗33只。
+发布的猫狗都是我和广州一个40多岁的阿姨救助，阿姨是十多年
+前开始救助，因为救助猫狗，阿姨不生孩子，连自己在广州的房
+子都卖了。
+我们一个月需要12斤尿道处方粮，20斤幼猫粮，580斤成年猫粮，
+900斤狗粮，2100斤猫砂，更加不用说猫狗中途生病产生的费用。
+可参与noah内义卖或直捐，感谢有你！
+</string>
+
+</resources>
